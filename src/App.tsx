@@ -16,14 +16,14 @@ function Home() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Travel-App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/home/ImageSlider" element={<ImageSlider />} />
-        <Route path="/home/FeatureTours" element={<FeatureTours />} />
-        <Route path="/home/MotobikeTours" element={<MotoBikeTours />} />
-        <Route path="/home/IntroductionImage" element={<IntroductionImage />} />
+        <Route path="/imageslider" element={<ImageSlider />} />
+        <Route path="/featuretours" element={<FeatureTours />} />
+        <Route path="/motobiketours" element={<MotoBikeTours />} />
+        <Route path="/introductionimage" element={<IntroductionImage />} />
         <Route path="/home" element={<HomePage />} />
       </Routes>
     </Router>
