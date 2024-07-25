@@ -34,7 +34,7 @@ export default function Menu() {
         <>
           <img
             loading="lazy"
-            src={`${process.env.PUBLIC_URL}/images/HaGiang02.PNG`}
+            src={`${process.env.PUBLIC_URL}/images/HaGiang02.png`}
             alt="Image 2"
             style={{
               width: isMobile ? "100%" : "50%",
@@ -45,11 +45,11 @@ export default function Menu() {
           <TravelMenu
             isMobile={isMobile}
             menuList={menuList}
-            logoSrc={`${process.env.PUBLIC_URL}/images/HostelLogo.PNG`}
+            logoSrc={`${process.env.PUBLIC_URL}/images/HostelLogo.png`}
           />
           <img
             loading="lazy"
-            src={`${process.env.PUBLIC_URL}/images/HaGiang01.PNG`}
+            src={`${process.env.PUBLIC_URL}/images/HaGiang01.png`}
             alt="Image 1"
             style={{
               width: isMobile ? "100%" : "50%",
@@ -64,7 +64,7 @@ export default function Menu() {
           <TravelMenu
             isMobile={isMobile}
             menuList={menuList}
-            logoSrc={`${process.env.PUBLIC_URL}/images/HostelLogo.PNG`}
+            logoSrc={`${process.env.PUBLIC_URL}/images/HostelLogo.png`}
           />
           <ScreenButton />
         </>

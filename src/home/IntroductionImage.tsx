@@ -86,7 +86,7 @@ function DisplayPage({
         </p>
         <img
           loading="lazy"
-          src={`${process.env.PUBLIC_URL}/images/Beautiful.PNG`}
+          src={`${process.env.PUBLIC_URL}/images/Beautiful.png`}
           alt=""
           style={{
             width: "30vw",
@@ -109,7 +109,7 @@ function DisplayPage({
       >
         <img
           loading="lazy"
-          src={`${process.env.PUBLIC_URL}/images/HaGiang02.PNG`}
+          src={`${process.env.PUBLIC_URL}/images/HaGiang02.png`}
           alt=""
           style={{
             width: isHovered ? widthI : "40vw",

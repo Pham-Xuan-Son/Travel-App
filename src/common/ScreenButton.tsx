@@ -3,7 +3,7 @@ export default function ScreenButton() {
     <div>
       <img
         loading="lazy"
-        src={`${process.env.PUBLIC_URL}/images/book.PNG`}
+        src={`${process.env.PUBLIC_URL}/images/book.png`}
         alt="logo"
         style={{
           position: "absolute",
@@ -26,7 +26,7 @@ export default function ScreenButton() {
       />
       <img
         loading="lazy"
-        src={`${process.env.PUBLIC_URL}/images/call.PNG`}
+        src={`${process.env.PUBLIC_URL}/images/call.png`}
         alt="logo"
         style={{
           position: "absolute",

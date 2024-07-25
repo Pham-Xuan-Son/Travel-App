@@ -181,7 +181,7 @@ function Images() {
     <>
       <img
         loading="lazy"
-        src={`${process.env.PUBLIC_URL}/images/sky.PNG`}
+        src={`${process.env.PUBLIC_URL}/images/sky.png`}
         alt="logo"
         style={{ top: "10vh", right: "1vw" }}
       />

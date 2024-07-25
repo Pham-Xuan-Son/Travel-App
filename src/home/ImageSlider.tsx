@@ -79,7 +79,7 @@ export default function ImageSlider() {
           </div>
           <img
             loading="lazy"
-            src={`${process.env.PUBLIC_URL}/images/HostelLogo.PNG`}
+            src={`${process.env.PUBLIC_URL}/images/HostelLogo.png`}
             alt="logo"
             style={{
               position: "absolute",
@@ -122,7 +122,7 @@ export default function ImageSlider() {
           />
           <img
             loading="lazy"
-            src={`${process.env.PUBLIC_URL}/images/HostelLogo.PNG`}
+            src={`${process.env.PUBLIC_URL}/images/HostelLogo.png`}
             alt="logo"
             style={{
               position: "absolute",

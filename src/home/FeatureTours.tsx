@@ -77,7 +77,7 @@ function Images() {
     <>
       <img
         loading="lazy"
-        src={`${process.env.PUBLIC_URL}/images/H.PNG`}
+        src={`${process.env.PUBLIC_URL}/images/H.png`}
         alt="logo"
         style={{
           position: "absolute",
@@ -90,7 +90,7 @@ function Images() {
       />
       <img
         loading="lazy"
-        src={`${process.env.PUBLIC_URL}/images/MapHG.PNG`}
+        src={`${process.env.PUBLIC_URL}/images/MapHG.png`}
         alt="logo"
         style={{
           position: "absolute",
