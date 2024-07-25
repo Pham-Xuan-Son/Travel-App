@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Menu from "./menu";
+import ImageSlider from "./home/ImageSlider";
+import FeatureTours from "./home/FeatureTours";
+import MotoBikeTours from "./home/MotobikeTours";
+import IntroductionImage from "./home/IntroductionImage";
+import HomePage from "./home";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HomePage />
     </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/home/ImageSlider" element={<ImageSlider />} />
+        <Route path="/home/FeatureTours" element={<FeatureTours />} />
+        <Route path="/home/MotobikeTours" element={<MotoBikeTours />} />
+        <Route path="/home/IntroductionImage" element={<IntroductionImage />} />
+        <Route path="/home" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
+}
