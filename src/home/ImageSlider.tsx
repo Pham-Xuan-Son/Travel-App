@@ -40,7 +40,7 @@ export default function ImageSlider() {
     <div
       style={{
         display: "flex",
-        width: "100%",
+        width: "100vw",
         height: "100vh",
         overflow: "hidden",
         position: "relative",

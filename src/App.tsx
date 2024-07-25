@@ -8,7 +8,7 @@ import HomePage from "./home";
 
 function Home() {
   return (
-    <div>
+    <div style={{ overflowX: "hidden", overflowY: "hidden" }}>
       <HomePage />
     </div>
   );

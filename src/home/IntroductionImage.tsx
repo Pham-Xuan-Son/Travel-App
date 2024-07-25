@@ -13,7 +13,8 @@ export default function IntroductionImage() {
         <>
           <DisplayPage
             isHovered={isHovered}
-            widthI="80vw"
+            widthI="90vw"
+            fontSize="3rem"
             handleMouseEnter={handleMouseEnter}
           />
         </>
@@ -23,6 +24,7 @@ export default function IntroductionImage() {
           <DisplayPage
             isHovered={isHovered}
             widthI="100vw"
+            fontSize="1.5rem"
             handleMouseEnter={handleMouseEnter}
           />
         </>
@@ -34,17 +36,19 @@ export default function IntroductionImage() {
 function DisplayPage({
   isHovered,
   widthI,
+  fontSize,
   handleMouseEnter,
 }: {
   isHovered: boolean;
   widthI: string;
+  fontSize: string;
   handleMouseEnter: () => void;
 }) {
   return (
     <div
       style={{
         display: "flex",
-        width: "100%",
+        width: "100vw",
         height: "100vh",
         overflow: "hidden",
         position: "relative",
@@ -75,7 +79,7 @@ function DisplayPage({
         </p>
         <p
           style={{
-            fontSize: "3rem",
+            fontSize: fontSize,
             fontWeight: "bold",
             color: "white",
             position: "absolute",
@@ -112,8 +116,8 @@ function DisplayPage({
           src={`${process.env.PUBLIC_URL}/images/HaGiang02.png`}
           alt=""
           style={{
-            width: isHovered ? widthI : "40vw",
-            height: isHovered ? "60vh" : "40vh",
+            width: isHovered ? widthI : "80vw",
+            height: isHovered ? "60vh" : "50vh",
             position: "absolute",
             top: "40vh",
             transition: "width 0.5s ease-in-out, height 0.5s ease-in-out",

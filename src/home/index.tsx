@@ -5,7 +5,7 @@ import MotoBikeTours from "./MotobikeTours";
 
 export default function HomePage() {
   return (
-    <div>
+    <div style={{overflowY: "hidden", overflowX: "hidden"}}>
       <ImageSlider />
       <FeatureTours />
       <MotoBikeTours />
