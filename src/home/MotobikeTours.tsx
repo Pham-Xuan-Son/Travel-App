@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import useScreenResize from "../hook/useScreenResize";
 import { serviceList } from "../unit/ListItem";
 
@@ -140,6 +141,8 @@ export default function MotoBikeTours() {
 }
 
 function TwoButton() {
+  const navigate = useNavigate();
+
   return (
     <>
       <button
@@ -169,8 +172,9 @@ function TwoButton() {
           fontWeight: "bold",
           cursor: "pointer",
         }}
+        onClick={() => navigate("/tours")}
       >
-        CONTACT US
+        TOURS
       </button>
     </>
   );

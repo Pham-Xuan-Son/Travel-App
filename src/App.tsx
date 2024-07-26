@@ -26,7 +26,7 @@ export default function App() {
         <Route path="/motobiketours" element={<MotoBikeTours />} />
         <Route path="/introductionimage" element={<IntroductionImage />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/menu/tours" element={<Tour />} />
+        <Route path="/tours" element={<Tour />} />
       </Routes>
     </Router>
   );
