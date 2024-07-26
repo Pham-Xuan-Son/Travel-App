@@ -5,6 +5,7 @@ import FeatureTours from "./home/FeatureTours";
 import MotoBikeTours from "./home/MotobikeTours";
 import IntroductionImage from "./home/IntroductionImage";
 import HomePage from "./home";
+import Tour from "./tours";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/motobiketours" element={<MotoBikeTours />} />
         <Route path="/introductionimage" element={<IntroductionImage />} />
         <Route path="/home" element={<HomePage />} />
+        <Route path="/tour" element={<Tour />} />
       </Routes>
     </Router>
   );

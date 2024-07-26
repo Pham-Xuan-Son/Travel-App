@@ -74,4 +74,38 @@ let hagiangMapSlider = [
     src: "/images/hgmap4.png",
   },
 ];
-export { images, logo, imagesSlider, bigImagesSlider, hagiangMapSlider };
+
+let listCard = [
+  {
+    name: "card1",
+    src: "/images/Card1.png",
+  },
+  {
+    name: "card2",
+    src: "/images/Card2.png",
+  },
+  {
+    name: "card3",
+    src: "/images/Card3.png",
+  },
+  {
+    name: "card4",
+    src: "/images/Card4.png",
+  },
+  {
+    name: "ard5",
+    src: "/images/Card5.png",
+  },
+  {
+    name: "card6",
+    src: "/images/Card6.png",
+  },
+];
+export {
+  images,
+  logo,
+  imagesSlider,
+  bigImagesSlider,
+  hagiangMapSlider,
+  listCard,
+};
