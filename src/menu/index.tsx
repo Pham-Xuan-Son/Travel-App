@@ -9,7 +9,7 @@ export interface MenuItemProps {
 const menuList: MenuItemProps[] = [
   { name: "Home", src: "/Travel-App" },
   { name: "About Us", src: "" },
-  { name: "Tours", src: "/Travel-App/tours" },
+  { name: "Tours", src: "/Travel-App/menu/tours" },
   { name: "Activity", src: "" },
   { name: "Destination", src: "" },
   { name: "Blog", src: "" },
